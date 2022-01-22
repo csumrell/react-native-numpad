@@ -3,8 +3,7 @@ import { StyleSheet } from 'react-native';
 export default StyleSheet.create({
   input: {
     width: '100%',
-    paddingVertical: 10,
-    backgroundColor: 'white',
+    paddingVertical: 10
   },
   display: {
     padding: 20,
