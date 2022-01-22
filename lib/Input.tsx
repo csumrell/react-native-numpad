@@ -126,13 +126,6 @@ export default class Input extends React.Component<InputProps> {
               )}
             </TouchableOpacity>
           </View>
-          <TouchableOpacity style={styles.hide} onPress={this.context.blur}>
-            {this.props.hideIcon ? (
-              this.props.hideIcon
-            ) : (
-              <Text style={styles.buttonText}>⌄</Text>
-            )}
-          </TouchableOpacity>
         </View>
       </Animated.View>
     );
